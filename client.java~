@@ -16,7 +16,7 @@ public class Client
         try
         {
             socket = new Socket(address, port);
-            System.out.println("Connection established");
+            System.out.println("Connected");
  
             // takes input from terminal
             input  = new DataInputStream(System.in);
